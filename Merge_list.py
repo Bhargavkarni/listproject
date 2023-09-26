@@ -1,0 +1,14 @@
+# List1 = ["Apple","Ball","Cat"]
+# List2 = ["table" , "laptop", "Charger"]
+#
+# join = List1 + List2
+#
+#
+
+test_list1 = [1, 4, 5, 6, 5]
+test_list2 = [3, 5, 7, 2, 5]
+
+for i in test_list2:
+    test_list1.append(i)
+
+print("Concatenated list : " + str(test_list1))
